@@ -4,6 +4,7 @@ import { BitcoinPrice } from "@/components/BitcoinPrice";
 import { TradingViewChart } from "@/components/TradingViewChart";
 import { TrendingCoins } from "@/components/TrendingCoins";
 import { GetStarted } from "@/components/GetStarted";
+import { PerformanceMetrics } from "@/components/PerformanceMetrics";
 
 const Index = () => {
   return (
@@ -17,6 +18,7 @@ const Index = () => {
               <BitcoinPrice />
             </div>
             <TradingViewChart />
+            <PerformanceMetrics />
           </div>
           <div className="space-y-6">
             <GetStarted />
